@@ -1,0 +1,30 @@
+body{
+    background-color: rgba(219, 112, 187, 0.342);
+    padding: 30px;
+}
+.accordian{
+    background-color: #fff;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px;
+}
+.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.answer{
+    color: #666;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s;
+}
+.icon{
+    margin-right: 10px;
+    color: black;
+    transition: transform 0.2s;
+}
+.icon.active{
+    transform:rotate(-180deg);
+}
